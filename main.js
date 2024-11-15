@@ -59,7 +59,7 @@ function createRepoEl(repoData, selectedItem) {
 function createDeleteBtnEl() {
 	const element = document.createElement('button')
 	element.classList.add('deleteBtn')
-	element.innerText = 'Удалить'
+	element.innerText = 'X'
 	element.addEventListener('click', (e) => {
 		e.target.parentNode.remove()
 	})
