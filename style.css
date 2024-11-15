@@ -74,4 +74,16 @@
 	position: absolute;
 	right: 16px;
 	top: 40px;
+
+	.deleteBtn {
+	position: absolute;
+	right: 16px;
+	top: 25px;
+
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: red;
+	font-size: 42px;
+}
 }
