@@ -16,6 +16,7 @@
 	width: 661px;
 	height: 763px;
 	background-color: #c4c4c4;
+	overflow: hidden;
 }
 
 .searchInput {
