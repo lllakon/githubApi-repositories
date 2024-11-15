@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.main {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding-top: 62px;
+	width: 661px;
+	height: 763px;
+	background-color: #c4c4c4;
+}
+
+.searchInput {
+	display: flex;
+	max-width: 500px;
+	height: 61px;
+	margin: 0 auto;
+	padding: 0 13px;
+	background-color: #fff;
+	border: 0;
+	font-size: 48px;
+}
+
+.popupWindow {
+	position: absolute;
+	left: 80px;
+	top: 123px;
+	width: 500px;
+	margin: 0 auto;
+	align-items: center;
+	font-size: 30px;
+	list-style-type: none;
+}
+
+.popupWindow li {
+	height: 44px;
+	padding: 0 13px;
+	background: #e3e3e3;
+	border: 2px black solid;
+	cursor: pointer;
+}
+
+.popupWindow li:hover {
+	background-color: #65CDF9;
+}
+
+.repoElementsWrapper {
+	max-width: 500px;
+	max-height: 763px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 220px;
+	background-color: #E27BEB;
+}
+
+.repoCard {
+	height: 101px;
+	position: relative;
+	margin-top: 1px;
+	padding: 10px 16px 0 16px;
+	font-size: 24px;
+	border: 1px black solid;
+	overflow: hidden;
+}
+
+.deleteBtn {
+	position: absolute;
+	right: 16px;
+	top: 40px;
+}
